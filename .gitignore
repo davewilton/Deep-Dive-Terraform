@@ -20,3 +20,4 @@
 
 # .hcl files
 *.hcl
+network_config/m3.plan

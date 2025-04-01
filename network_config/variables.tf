@@ -14,6 +14,12 @@ variable "prefix" {
   default     = "globo-dev"
 }
 
+variable "environment" {
+  type        = string
+  description = "(Optional) Environment for all reasources. Default: dev"
+  default     = "dev"
+}
+
 variable "cidr_block" {
   type        = string
   description = "(Optional) The CIDR block for the VPC. Default:10.42.0.0/16"
