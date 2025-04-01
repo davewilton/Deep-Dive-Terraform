@@ -10,7 +10,10 @@
 		"ghcr.io/devcontainers/features/aws-cli:1": {
 			"version": "latest"
 		}
-	}
+	},
+    "containerEnv": {
+        "AWS_PROFILE": "deep-dive"
+    }
 	//   Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
